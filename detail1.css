@@ -323,11 +323,11 @@ img {
   position: relative;
   display: inline-flex;
   align-items: center;
-  background: #15181a;
+  background: white;
   border: 1px solid #2b3136;
   border-radius: 8px;
   padding: 8px 40px 8px 14px;
-  color: #e6e6e6;
+  color: black;
 }
 .select {
   appearance: none;
@@ -392,6 +392,92 @@ img {
     grid-template-columns: 1fr;
   }
 }
+
+/* ====== CONTAINER BLOCK (DÙNG THAY CHO .container BỊ FLEX) ====== */
+.container-block {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: block;
+}
+
+/* ====== GIỚI THIỆU SỰ KIỆN - 1 CỘT ====== */
+.event-details-singlecol {
+  background: #fff;
+  padding: 40px 20px;
+  font-size: 16px;
+  color: #111;
+  line-height: 1.6;
+}
+
+/* TIÊU ĐỀ CHÍNH */
+.event-details-heading {
+  text-align: center;
+  color: orangered;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* THÔNG BÁO SOLD-OUT */
+.soldout-text-bold {
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* GẠCH NGANG PHÂN CÁCH */
+.soldout-separator {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-top: 1px dashed #999;
+}
+
+/* PHẦN MÔ TẢ CHI TIẾT */
+.event-description h3 {
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.event-description p {
+  margin: 10px 0;
+}
+
+/* DANH SÁCH GIÁ VÉ */
+.ticket-pricing {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.ticket-pricing li {
+  margin-bottom: 6px;
+  padding-left: 0;
+  position: relative;
+  font-size: 15px;
+}
+
+/* HOTLINE */
+.hotline-support {
+  font-weight: bold;
+  color: black;
+  margin-top: 20px;
+}
+
+.hotline-number {
+  color: orangered;
+  font-weight: 800;
+}
+
+
 
 /* ====== SEE MORE ====== */
 .see-more {

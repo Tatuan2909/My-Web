@@ -177,11 +177,11 @@ img{display:block; max-width:100%}
   position:relative;
   display:inline-flex;
   align-items:center;
-  background:#15181a;
+  background:white;
   border:1px solid #2b3136;
   border-radius:8px;
   padding:8px 40px 8px 14px;
-  color:#e6e6e6;
+  color: black;
 }
 .select{
   appearance:none;
@@ -582,6 +582,7 @@ img{display:block; max-width:100%}
     font-size: 1rem;
   }
 }
+
 /* Liên hệ  */
 .contact-business .container {
   text-align: center;
