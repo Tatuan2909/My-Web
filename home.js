@@ -37,7 +37,7 @@ const extraEventsSection = document.getElementById('extra-events');
 const extraEventsGrid = document.getElementById('extraEventsGrid');
 
 // Key dữ liệu của Admin
-const KEY_PRODUCTS = 'tg.products.v3';
+const KEY_PRODUCTS = 'tg.products.v4';
 
 // Escape HTML an toàn cho text
 function escapeHtml(s){
