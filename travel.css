@@ -234,7 +234,7 @@ img{display:block; max-width:100%}
   margin:0 0 10px;
   font-size:28px;
   line-height:1.35;
-  color:#e8e6e3;
+  color:black;
   font-weight:700;
 }
 .meta{
@@ -257,7 +257,7 @@ img{display:block; max-width:100%}
 
 .event-desc{
   margin:0;
-  color:#e8e6e3;
+  color:black;
   line-height:1.6;
   opacity:.9;
 }
@@ -453,7 +453,7 @@ img{display:block; max-width:100%}
 .start-title {
   font-size: 2rem;
   font-weight: 700;
-  color:#ffffff;
+  color:black;
   text-align: center;
   margin: 0;
 }
@@ -493,7 +493,7 @@ img{display:block; max-width:100%}
 }
 
 .contact-text {
-  color: #ffffff;
+  color: black;
   font-size: 18px;
   margin: 0;
   line-height: 1.5;

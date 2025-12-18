@@ -420,10 +420,10 @@ img{display:block; max-width:100%}
 .block-title{
   margin:18px 0 8px;
   font-size:16px; font-weight:800; line-height:1.35;
-  text-transform:uppercase; color:#e8e6e3;
+  text-transform:uppercase; color:black;
 }
 .block-subtitle{
-  margin:0 0 14px; color:#c7c3bd; font-size:16px;
+  margin:0 0 14px; color:black; font-size:16px;
 }
 
 /* item row */
@@ -445,7 +445,7 @@ img{display:block; max-width:100%}
 .item-title{
   margin:0;
   font-size:14px; line-height:1.35; font-weight:800;
-  text-transform:uppercase; color:#ecebe8;
+  text-transform:uppercase; color:black;
   display:-webkit-box; -webkit-box-orient:vertical; overflow:hidden;
 }
 .item-title a{ color:inherit; text-decoration:none;font-family: "Nunito", "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }

@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const staffHash = await sha256('staff123');
       const uid = (p='id') => `${p}_${Math.random().toString(36).slice(2,10)}`;
       localStorage.setItem(KEYS.ADMINS, JSON.stringify([
-        { id: uid('adm'), name:'Super Admin',  email:'admin@demo.io', role:'superadmin', status:'active',  passwordHash: adminHash, createdAt: Date.now() },
-        { id: uid('adm'), name:'Support Staff',email:'staff@demo.io',  role:'staff',      status:'active',  passwordHash: staffHash, createdAt: Date.now() }
+        { id: uid('adm'), name:'Super Admin',  email:'admin@gmail.com', role:'superadmin', status:'active',  passwordHash: adminHash, createdAt: Date.now() },
+        { id: uid('adm'), name:'Support Staff',email:'staff@gmail.com',  role:'staff',      status:'active',  passwordHash: staffHash, createdAt: Date.now() }
       ]));
     }
   }

@@ -266,7 +266,7 @@ img{display:block; max-width:100%}
 /* Card & ảnh đồng nhất */
 .event-card{
   overflow:hidden;
-  color:#e8e6e3;
+  color:black;
 }
 .event-card img{
   width:100%;
@@ -306,7 +306,7 @@ img{display:block; max-width:100%}
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  color: #ffffff;
+  color: orange;
 }
 
 /* tiêu đề bên trái */
@@ -448,7 +448,7 @@ img{display:block; max-width:100%}
   gap:10px;
   font-size:22px;
   font-weight:800;
-  color:#ffffff;
+  color:orange;
 }
 
 /* gạch cam */
@@ -484,7 +484,7 @@ img{display:block; max-width:100%}
   gap: 24px;
 }
 .cat-card{
-  color: #e8e6e3;
+  color: black;
 }
 .cat-card img{
   width: 100%;
@@ -550,7 +550,7 @@ img{display:block; max-width:100%}
 .start-title {
   font-size: 2rem;
   font-weight: 700;
-  color:#ffffff;
+  color:black;
   text-align: center;
   margin: 0;
 }
@@ -590,7 +590,7 @@ img{display:block; max-width:100%}
 }
 
 .contact-text {
-  color: #ffffff;
+  color: black;
   font-size: 18px;
   margin: 0;
   line-height: 1.5;
