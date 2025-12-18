@@ -347,7 +347,7 @@ img{display:block; max-width:100%}
 .cat-title{
   position:relative; margin:0; padding-left:16px;
   font-size:20px; line-height:1.2; font-weight:800;
-  text-transform:uppercase; color:#e8e6e3; letter-spacing:.3px;
+  text-transform:uppercase; color:black; letter-spacing:.3px;
 }
 .cat-title::before{
   content:""; position:absolute; left:0; top:50%; transform:translateY(-50%);
@@ -498,7 +498,7 @@ img{display:block; max-width:100%}
   line-height: 1.25;
   font-weight: 800;
   text-transform: uppercase;
-  color: var(--text);
+  color: #ff8a00;
   letter-spacing: .3px
 }
 .cat-col .cat-title::before{
