@@ -147,9 +147,9 @@ img{display:block; max-width:100%}
 }
 .select{
   appearance:none;
-  background:transparent;
+  background:black;
   border:0;
-  color:inherit;
+  color:white;
   font:inherit;
   outline:none;
 }
